@@ -8,16 +8,16 @@ namespace Aulas
         
         static void Main()
         {
-            Triangle x, y; //Decalro varias do tipo criado da classe
-            x = new Triangle(); //instancia da variavel
-            y = new Triangle(); //instancia da variavel
+            Triangle x, y; //Decalro variaveis do tipo criado da classe
+            x = new Triangle(); //instancia da variavel (obejto X)
+            y = new Triangle(); //instancia da variavel (objeto Y)
 
             Console.WriteLine("-=-=-=-=-=-=-=-=-=-= Triangle Area Calculation =-=-=-=-=-=-=-=-=-=-");
 
             Console.WriteLine("Type three values of A: (One value per line)");
-            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); //atributo a
+            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); //atributo b
+            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); //atributo c
 
             Console.WriteLine("Type three values of A: (One value per line)");
             y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
